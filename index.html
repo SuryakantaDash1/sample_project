@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BACKGROUND CHANGER</title>
+    <link rel="stylesheet" href ="custom.css">
+   
+</body>
+    
+</head>
+<body>
+    <div id="color">
+       <span class="button" id="white" onclick="changeBG('#ffffff')"></span>
+       <span class="button" id="aqua"  onclick="changeBG('#00ffff')"></span>
+       <span class="button" id="bisque"  onclick="changeBG('#ffe4c4')"></span>
+       <span class="button" id="black"  onclick="changeBG('#000000')"></span>
+
+    </div>
+    <h1 class="text">FRIENDS FOREVER</h1>
+    <img src="friendsforever.jpg" alt="">
+    <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatibus deserunt praesentium doloremque totam eos necessitatibus, ad odit, rerum magnam voluptates id ipsum tempora culpa molestiae, accusantium dolorum. Illo consectetur sunt voluptates, voluptatum quam, laudantium debitis vel harum, maiores mollitia dolorum unde repudiandae animi molestiae suscipit odio hic! Sapiente quisquam neque architecto ut voluptates eveniet necessitatibus molestias quas blanditiis officiis nostrum, tenetur repellendus? Quisquam maiores obcaecati sint asperiores recusandae reiciendis vel impedit error iure, assumenda explicabo non perspiciatis animi. Inventore temporibus itaque quos alias, quia, ullam qui doloribus porro, quibusdam voluptatem ea. Soluta, sapiente, totam quis dicta eos temporibus dignissimos mollitia modi nulla, laudantium voluptatibus sequi cumque itaque officiis obcaecati ducimus culpa cupiditate iure eaque quisquam dolor at. Quam quos esse soluta in quidem aliquam! Nostrum provident quisquam soluta nobis modi dolor sunt itaque sint qui, quos eius odit nulla inventore, rerum deleniti repudiandae, fugiat voluptas a cumque explicabo? Qui dicta aspernatur deleniti nobis quos minus in perspiciatis pariatur. Dolores aliquid suscipit corrupti eligendi? Illo ut sed officia molestiae sit modi quisquam dolor iure totam non assumenda quibusdam labore, asperiores maiores adipisci eos consequatur nisi itaque iste nostrum. Consequatur est facilis et autem. Alias placeat at corrupti quia exercitationem ex, pariatur rerum harum possimus, dignissimos quam atque expedita perferendis debitis id nemo dolorem vel dolor culpa nostrum quibusdam maxime nobis ratione reiciendis. Porro voluptatibus fugit dolor commodi ipsam maiores aliquam officia deserunt quis dolorem. Architecto aliquid quaerat rerum? Numquam repudiandae laborum id quisquam eum esse obcaecati et, quasi aut, quas a cumque architecto asperiores porro aperiam corrupti fugit inventore debitis? Ullam fugit, itaque harum repellat nesciunt molestias atque vitae ducimus, nostrum pariatur voluptatibus. Fugit reiciendis natus placeat optio id ab repellat incidunt saepe aspernatur modi quos in minima corporis magnam, tempore non. Voluptates, nulla? Illum cupiditate neque voluptatibus, repellendus qui doloribus harum laboriosam. Necessitatibus enim provident, culpa rem ea dolore eligendi? Modi ipsam dicta, officiis consequatur eos corporis ipsa vero hic! Cumque facere quas ad, vero omnis asperiores mollitia quibusdam magnam nisi aspernatur nesciunt fugit obcaecati soluta iure illo error consectetur culpa beatae autem unde. Dolore, quia aliquid. Blanditiis ipsa nulla doloribus dolor quos laboriosam perspiciatis quod quibusdam iusto provident consequatur eum culpa, vel obcaecati pariatur magnam deleniti consectetur laudantium veritatis, nostrum unde maiores? Blanditiis, sint omnis. Harum quod atque vitae quibusdam fuga doloribus quaerat, fugiat porro nam dignissimos modi temporibus explicabo officia ipsam quasi, rem deserunt sunt. Dignissimos exercitationem quos et numquam ad vero! Commodi sint earum alias animi libero, sit molestiae placeat expedita doloribus adipisci cum, quos tempora qui? Omnis aspernatur sed officiis deleniti ea doloribus accusamus inventore fugiat. Sed perferendis fugit exercitationem, voluptatem, aliquid est cupiditate asperiores cum deserunt repellat hic adipisci illum sequi magni nostrum quaerat, delectus officiis blanditiis iste libero? Itaque, voluptatem, reprehenderit possimus maxime repellendus nam porro ea voluptatum eveniet pariatur est rem saepe accusantium consequuntur. Atque maxime accusamus quaerat nostrum sed, facilis harum odio doloremque neque expedita eum ut cum consequatur asperiores! Voluptatum illo quo dolores atque in magni pariatur suscipit temporibus perspiciatis.
+    </p>
+<script>
+        function changeBG(color){
+    document.body.style.backgroundColor = color;
+        
+    let x = document.getElementsByClassName("text");
+    if(color =='#000000'){
+        for(let elm of x){
+            elm.style.color = "white";
+        }
+        }else{
+            for(let elm of x){
+            elm.style.color = "black";
+         }
+    }
+}
+</script>
+   
+</html>

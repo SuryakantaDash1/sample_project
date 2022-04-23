@@ -1,0 +1,39 @@
+body{
+    margin: o;
+    padding: 20px 100px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+p{
+    text-align: justify;
+}
+.button{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: solid gray 2px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#color{
+    text-align: right;
+}
+#white{
+    background-color: white;
+}
+#aqua{
+    background-color: aqua;
+}
+#bisque{
+    background-color: bisque;
+}
+#black{
+    background-color: black;
+}
